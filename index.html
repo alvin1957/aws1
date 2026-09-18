@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-white text-black antialiased">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alswalk | Strategic Wholesale Distribution</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans flex flex-col min-h-screen bg-white text-black selection:bg-black selection:text-white">
+
+  <!-- IDENTICAL NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-black/10">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 h-20 flex items-center justify-between">
+      <a href="index.html" class="font-serif text-2xl font-bold tracking-tight hover:opacity-70 transition-opacity">
+        ALSWALK
+      </a>
+      <nav class="flex items-center space-x-8 text-sm uppercase tracking-widest font-medium">
+        <a href="index.html" class="hover:underline underline-offset-8 transition-all">Home</a>
+        <a href="about.html" class="hover:underline underline-offset-8 transition-all">About</a>
+        <a href="contact.html" class="hover:underline underline-offset-8 transition-all">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-6 sm:px-12 py-24 sm:py-36 border-b border-black/10">
+      <div class="max-w-4xl">
+        <p class="text-xs uppercase tracking-[0.3em] font-semibold text-neutral-500 mb-6">Illinois Wholesale Distribution Partner</p>
+        <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-normal leading-[1.15] mb-8">
+          Elevating brand distribution through strategic wholesale partnerships.
+        </h1>
+        <p class="text-lg sm:text-xl text-neutral-700 font-light leading-relaxed mb-12 max-w-2xl">
+          We purchase inventory wholesale directly from brands and authorized distributors to effectively manage, supply, and scale their presence across modern e-commerce marketplaces.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+          <a href="mailto:support@alswalk2.com" class="inline-flex items-center justify-center bg-black text-white px-8 py-4 text-sm font-medium tracking-wider uppercase hover:bg-neutral-800 transition-colors">
+            Email Us Directly
+          </a>
+          <a href="contact.html" class="inline-flex items-center justify-center border border-black px-8 py-4 text-sm font-medium tracking-wider uppercase hover:bg-black hover:text-white transition-colors">
+            Partner With Alswalk
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Offerings Section -->
+    <section class="max-w-7xl mx-auto px-6 sm:px-12 py-24 border-b border-black/10">
+      <div class="mb-16">
+        <h2 class="text-xs uppercase tracking-[0.3em] font-semibold text-neutral-500 mb-3">Value Proposition</h2>
+        <h3 class="font-serif text-3xl sm:text-4xl">What We Offer Brand Partners</h3>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 sm:gap-8">
+        <div class="p-8 border border-black/10 hover:border-black transition-colors">
+          <span class="block font-serif text-3xl font-light text-neutral-400 mb-6">01</span>
+          <h4 class="font-serif text-xl font-semibold mb-4">MAP & Brand Protection</h4>
+          <p class="text-neutral-600 font-light leading-relaxed">
+            Strict adherence to brand guidelines and MAP (Minimum Advertised Price) policies to safeguard your market value.
+          </p>
+        </div>
+
+        <div class="p-8 border border-black/10 hover:border-black transition-colors">
+          <span class="block font-serif text-3xl font-light text-neutral-400 mb-6">02</span>
+          <h4 class="font-serif text-xl font-semibold mb-4">Streamlined Logistics</h4>
+          <p class="text-neutral-600 font-light leading-relaxed">
+            Reliable, consistent inventory purchasing and optimized fulfillment strategies designed to keep stock moving smoothly.
+          </p>
+        </div>
+
+        <div class="p-8 border border-black/10 hover:border-black transition-colors">
+          <span class="block font-serif text-3xl font-light text-neutral-400 mb-6">03</span>
+          <h4 class="font-serif text-xl font-semibold mb-4">Premium Marketplace Representation</h4>
+          <p class="text-neutral-600 font-light leading-relaxed">
+            Unwavering commitment to maintaining premium brand presentation, optimized listings, and exceptional customer satisfaction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Direct Contact CTA Section -->
+    <section class="max-w-7xl mx-auto px-6 sm:px-12 py-24">
+      <div class="bg-neutral-50 p-12 sm:p-20 border border-black/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+        <div>
+          <h3 class="font-serif text-3xl sm:text-4xl mb-4">Ready to expand your reach?</h3>
+          <p class="text-neutral-600 font-light max-w-xl">
+            Let’s discuss how Alswalk can help protect and scale your products across e-commerce channels.
+          </p>
+        </div>
+        <a href="contact.html" class="bg-black text-white px-8 py-4 text-sm font-medium tracking-wider uppercase hover:bg-neutral-800 transition-colors whitespace-nowrap">
+          Get In Touch
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-black/10 bg-white">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 py-12 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-neutral-500 uppercase tracking-widest">
+      <p>&copy; Alswalk LLC. All rights reserved. Registered in Illinois.</p>
+      <div class="flex space-x-6">
+        <a href="#" class="hover:text-black transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-black transition-colors">Returns &amp; Replacements</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
